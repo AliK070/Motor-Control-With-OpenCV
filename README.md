@@ -1,6 +1,6 @@
  # Motor Control w/OpenCV
 
-## A bit about the program:
+## A bit about the Program:
 Motor PWM control using the OpenCV library to track my hands and the tips of my pinkey to thumb (the distance). The power outputed to the motors are based off of this distance value, the greater the distance the greater the motor speed will be and vice versa. This is done through the pyfirmata2 library, in which I use python to communicate with the Arduino. 
 
 The distance `d` between two points `(x₁, y₁)` and `(x₂, y₂)` in a 2D plane is:
@@ -44,7 +44,19 @@ drawLineTP(); #draws the lines between the thumb and pinky all while calculating
 
 
 ```
-## A demo of the program: 
+## Circuit Diagram for the Arduino Wiring: 
+
+You will need the following: 
+
+- Arduino Uno
+- Wires
+- Two motors (hobbyist motors)
+- One H-Bridge (tb6612fng)
+
+![circuit (4)](https://github.com/user-attachments/assets/70877b28-00b1-4dc9-bfe7-81e3e8ab40a6)
+
+
+## A demo of the Program: 
 
 You can watch this video to see a working demo: 
 
