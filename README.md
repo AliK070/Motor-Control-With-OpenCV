@@ -1,7 +1,15 @@
-# Motor Control w/OpenCV
+ # Motor Control w/OpenCV
 
 ## A bit about the program:
 Motor PWM control using the OpenCV library to track my hands and the tips of my pinkey to thumb (the distance). The power outputed to the motors are based off of this distance value, the greater the distance the greater the motor speed will be and vice versa. This is done through the pyfirmata2 library, in which I use python to communicate with the Arduino. 
+
+The program itself uses the distance formula between two points to calculate the distance: 
+
+The distance \( d \) between two points \( (x_1, y_1) \) and \( (x_2, y_2) \) in a 2D plane is given by:
+
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
 
 ## What to look at: 
 
@@ -12,8 +20,10 @@ Refer to the program code to see how everything works, its not too complicated a
 ```py
 
 drawFPS(); #draws the FPS to the frame of the input.
+
 drawLineTP(); #draws the lines between the thumb and pinky all while calculating the distance between these two points.
 
-#The rest of the code is quite simple, if video input is recived than it runs through everything and communicates with the Arduino. 
+#The rest of the code is quite simple, if video input is recived than it runs through everything and
+communicates with the Arduino. 
 
 ```
