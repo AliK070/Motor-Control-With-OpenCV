@@ -36,9 +36,9 @@ drawFPS(); #draws the FPS to the frame of the input.
 
 drawLineTP(); #draws the lines between the thumb and pinky all while calculating the distance between these two points.
 
-```
-The rest of the code is quite simple, if video input is recived than it runs through everything and
-communicates with the Arduino. 
-```
+
+#The rest of the code is quite simple, if video input is recived than it runs through everything and
+#communicates with the Arduino. 
+
 
 ```
