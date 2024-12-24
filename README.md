@@ -53,6 +53,8 @@ You will need the following:
 - Two motors (hobbyist motors)
 - One H-Bridge (tb6612fng)
 
+As for the wiring, I used one pwm and hooked up the other with it to share power and simplify the wiring. You can use any pin of choice for the IN pins. VM and VCC are connected to the same power as STBY and is needed. Once you go above these two motors (another H-Bridge), you'll have to connect an external source of power in order for the other set of motors to work.
+
 ![circuit (4)](https://github.com/user-attachments/assets/70877b28-00b1-4dc9-bfe7-81e3e8ab40a6)
 
 
