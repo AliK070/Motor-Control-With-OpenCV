@@ -30,6 +30,8 @@ Refer to the program code to see how everything works, its not too complicated a
 
 ## Functions within the code: 
 
+There are only two primary functions that are quite important: 
+
 ```py
 
 drawFPS(); #draws the FPS to the frame of the input.
@@ -42,3 +44,12 @@ drawLineTP(); #draws the lines between the thumb and pinky all while calculating
 
 
 ```
+## A demo of the program: 
+
+You can watch this video to see a working demo: 
+
+
+https://github.com/user-attachments/assets/a2a45f53-4c09-42c0-b851-c849b2a36fd4
+
+
+
