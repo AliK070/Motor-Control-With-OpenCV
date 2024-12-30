@@ -49,10 +49,10 @@ drawLineTP(); #draws the lines between the thumb and pinky all while calculating
 
 You will need the following: 
 
-- Arduino Uno
-- Wires
-- Two motors (hobbyist motors)
-- One H-Bridge (tb6612fng)
+- Arduino Uno or Nano
+- Wires 
+- Two motors (hobbyist motors or any two motors)
+- One H-Bridge (TB6612FNG)
 
 As for the wiring, I used one pwm and hooked up the other with it to share power and simplify the wiring. You can use any pin of choice for the IN pins. VM and VCC are connected to the same power as STBY and is needed. Once you go above these two motors (another H-Bridge), you'll have to connect an external source of power in order for the other set of motors to work.
 
