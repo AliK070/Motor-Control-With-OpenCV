@@ -1,6 +1,7 @@
- # Motor Control w/OpenCV
+ # Motor Control using OpenCV's hand detection.
 
 ## A bit about the Program:
+
 Motor PWM control using the OpenCV library to track my hands and the tips of my pinkey to thumb (the distance). The power outputed to the motors are based off of this distance value, the greater the distance the greater the motor speed will be and vice versa. This is done through the pyfirmata2 library, in which I use python to communicate with the Arduino. 
 
 The distance `d` between two points `(x₁, y₁)` and `(x₂, y₂)` in a 2D plane is:
