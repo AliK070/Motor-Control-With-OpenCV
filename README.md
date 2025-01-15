@@ -64,8 +64,9 @@ As for the wiring, I used one pwm and hooked up the other with it to share power
 
 You can watch this video to see a working demo: 
 
+https://www.youtube.com/watch?v=aQzvqGTgJ-E&t=47s&ab_channel=Ak0TecForge
 
-https://github.com/user-attachments/assets/a2a45f53-4c09-42c0-b851-c849b2a36fd4
+
 
 
 
